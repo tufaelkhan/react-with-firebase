@@ -16,14 +16,20 @@ h3{
 .author-data{
     display: flex;
     justify-content: space-between;
-    align-items: center;
 }
 button{
-    color: rgb(136, 205, 41);
+    color: rgb(43, 16, 243);
+    background-color: aqua;
 }
 .bookmark{
     display: flex;
 }
-.bookmark{
+.book-icon{
+    width: 20px;
+    height: 20px;
+    cursor: pointer;
+}
+.bookmark-item{
     display: flex;
+    align-items: center;
 }

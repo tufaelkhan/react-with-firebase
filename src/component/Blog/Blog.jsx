@@ -19,7 +19,8 @@ const Blog = () => {
                 }
             </div>
             <div className="blog-side">
-        <h3>summay</h3>
+        <h3>spent time to read: 0</h3>
+        <h3>Bookmarked Blogs: 0</h3>
             </div>
         </div>
     );
