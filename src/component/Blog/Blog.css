@@ -1,0 +1,10 @@
+.blog-container{
+    display: grid;
+    grid-template-columns: 3fr 2fr;
+    margin-left: 100px;
+    gap: 30px;
+}
+.blog-side{
+    text-align: center;
+    margin-left: 30px;
+}
