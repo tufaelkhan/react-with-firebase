@@ -2,7 +2,7 @@ import React from 'react';
 import './Question.css'
 const Question = () => {
     return (
-        <div>
+        <div className='question'>
             <div>
             <h3>Difference between state vs props.</h3>
             <p>state are mutable. it can be changed. it is work current component. state holds information about the component to other component as an component. state cannot be accessed by child component. states can be used for rendering dynamic changes with the component.</p>

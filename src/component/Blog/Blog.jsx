@@ -1,5 +1,6 @@
 import React, { useEffect, useState } from 'react';
 import SingleBlog from '../SingleBlog/SingleBlog';
+import { ToastContainer, toast } from 'react-toastify'
 import './Blog.css';
 const Blog = () => {
     // console.log(props)
@@ -12,6 +13,9 @@ const Blog = () => {
         const newBlog = [...blog, title];
         setBlog(newBlog);
         // console.log(title)
+    }
+    const handelToast = () =>{
+        toast("Wow so easy !")
     }
     const watchTime =(somoy)=>{
         const previousTime = JSON.parse(localStorage.getItem('watch'));

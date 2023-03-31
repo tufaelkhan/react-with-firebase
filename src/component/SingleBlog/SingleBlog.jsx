@@ -5,6 +5,7 @@ const SingleBlog = (props) => {
 
 const handleBook = props.handleBook;
 const watchTime= props.watchTime;
+const handelToast= props.handelToast;
 // console.log(props)
     return (
         <div className='picture'>
