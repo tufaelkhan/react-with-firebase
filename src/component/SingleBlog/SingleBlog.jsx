@@ -1,7 +1,7 @@
 import React from 'react';
 import './SingleBlog.css';
 const SingleBlog = (props) => {
-    const {img, name, title, published, authorPic} = props.blog;
+    const {img, name, title, published, authorPic, time} = props.blog;
     return (
         <div className='picture'>
             <img src={img} alt="" />
@@ -14,10 +14,12 @@ const SingleBlog = (props) => {
                 </div>
                 </div>
                 <div>
-                <h5>5 minuts read</h5>
+                <h5>{time} minuts read </h5>
+                
                 </div>
             </div>
             <h3>{title}</h3>
+            <button>Mark as read</button>
         </div>
     );
 };
