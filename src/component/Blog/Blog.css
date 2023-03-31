@@ -6,5 +6,9 @@
 }
 .blog-side{
     text-align: center;
-    margin-left: 30px;
+    grid-template-columns: repeat(1, 1fr);
+    margin: 30px 85px 30px 95px;
+}
+.all-blog{
+    grid-template-columns: repeat(1, 1fr);
 }
