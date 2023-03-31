@@ -20,7 +20,7 @@ const Question = () => {
             </div>
             <div>
             <h3>How does React work?</h3>
-            <p>React is a library. library is a customizable. library is a fast component based. effiency DOM update. it devide a website some component. React virtual DOM can fast update website.react divide UI into isolated reusable pieces of code known as components. react component similarly javascript function waork. </p>
+            <p>React is a library. library is a customizable. library is a fast component based. effiency DOM update. it devide a website some component. React virtual DOM can fast update website.react divide UI into isolated reusable pieces of code known as components. react component similarly javascript function waork. our component are made of two main ingredients: state and props. these two ingredients mean we can organise our components in a hierarchical structure that ensures a one way data flow means unidirectional way </p>
             </div>
         </div>
     );
