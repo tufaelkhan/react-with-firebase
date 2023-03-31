@@ -3,6 +3,8 @@
     grid-template-columns: 3fr 2fr;
     margin-left: 100px;
     gap: 30px;
+    position: sticky;
+
 }
 .blog-side{
     text-align: center;
