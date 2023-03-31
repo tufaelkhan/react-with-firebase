@@ -23,7 +23,6 @@ const Blog = () => {
             localStorage.setItem('watch', somoy)
             setSomoy(somoy)
         }
-        // console.log(previousTime)
       }
 
     useEffect(()=>{
@@ -47,7 +46,7 @@ const Blog = () => {
             <div className="blog-side">
         <h3>spent time to read: {somoy}</h3>
         <h3>Bookmarked Blogs: {blog.length}</h3>
-       <h3>{blog}</h3>
+       <div><h3>{blog}</h3></div>
             </div>
         </div>
     );
